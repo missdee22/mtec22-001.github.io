@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<head>
+<title>COLLECTIONS</title>
+<style>
+
+body{
+ background-color:#8e8e93;
+			color: black;
+			padding: 20px;
+			text-align: left;
+			font-size: 15px;
+			font-weight: Italian;
+            line-height: 1.625em
+            
+            
+}
+
+ul#navlist{
+padding-left:0;
+margin-left:0;
+list-style-type: none;
+  
+}	
+		
+ul#navlist{
+padding:0;
+margin:0;
+}
+
+li{
+ float:right;
+}
+li a{
+     display:block;
+     color:black;
+    padding: 14px 16px;
+     text-align:left;
+     text-decoration= text-underline
+}
+
+.image-container{
+display: flex;
+}
+
+figcaption{ 
+font-size: 10px;
+}
+
+
+.logo-wrapper {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 9999;
+}
+
+.logo-wrapper img {
+  max-height: 50px;
+}
+
+fig{
+width:100%;
+background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50% 0px 0px;
+    position: relative;
+}
+
+.slideshow {
+  display: inline-block;
+  position: flex;
+  width: 100%;
+  overflow: hidden;
+}
+
+.slideshow img {
+  position:flex;
+  width: 100%;
+  opacity: 0;
+  animation: slideShow 12s infinite;
+}
+
+@keyframes slideShow {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  3% {
+    opacity: 1;
+  }
+  5% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 0;
+  }
+}
+footer {
+  background-color: #8e8e93;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-logo img {
+  width: 30%;
+}
+
+.footer-links ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-links li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-social a {
+  color: #ggg;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.footer-bottom {
+  background-color: #ggg;
+  text-align: center;
+  padding: 10px 0;
+}
+
+
+
+
+</style>
+</head>
+<body>
+     <div class= "container">
+	 <form action="http://www.google.com/search" method="get:class="search-bar> 
+	 <input type="text" placeholder="movies, tv shows, games&apps" name="q">
+	 <button type="submit">Search</button>
+	 
+	 </form>
+	 
+	 
+	 </div>
+	 <nav>
+	 
+	 <ul id="navlist">
+	   <li><a href="index.html">Home</a>
+	   <li><a href="movies page website.html">Movies</a>
+       <li><a href="TV shows.html"> Tv shows</a>
+       <li><a href="Collections website.html">Collections</a>
+	   <li><a href="games and apps.html">Games and Apps</a>
+       <li><a href="feedback.html">Feedback</a>
+	   </ul>
+	 <header>  
+<div class="logo-wrapper">
+  <img src="LOGO2.jpg">
+</div>
+
+
+<h1>HORROR FAVORITES</h1>
+
+
+<div class= "image-container">
+
+<figure>
+<img src="annabelle_2000x3000.jpg">
+<figcaption>ANNABLLE</figcaption>
+</figure>
+
+<figure>
+<img src="conjuring_keyart.jpg">
+<figcaption>THE CONJURING</figcaption>
+</figure>
+
+<figure>
+<img src ="CurseLaLlorona_2000x3000.jpeg">
+<figcaption>CURSE OF LA LLORONA</figcaption>
+</figure>
+
+<figure>
+<img src="exorcist_keyart.jpg">
+<figcaption>THE EXORSIST</figcaption>
+</figure>
+</div>
+
+<div class="slideshow-container">
+  <img class= "mySlides"
+  <img src="giphy (1).gif" width="100%" height= "auto">
+  <img class="mySlides"
+  <img src="R (3).gif" width="100%" height="auto">
+
+</div>
+
+<script>
+        var slideIndex = 0;
+        showSlides();
+
+ 
+
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}
+            slides[slideIndex-1].style.display = "block";
+            setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+</script>
+<h1> TRUE LOVE & ROMANCE</h1>
+<div class= "image-container">
+
+<figure>
+<img src="how_to_be_single_keyart_whv.jpg">
+<figcaption>HOW TO BE SINGLE</figcaption>
+</figure>
+
+<figure>
+<img src="the_notebook_key_art.jpg">
+<figcaption>THE NOTEBOOK</figcaption>
+</figure>
+
+<figure>
+<img src ="crazy_stupid_love_key_art.jpg">
+<figcaption>CRAZY STUPID LOVE</figcaption>
+</figure>
+
+<figure>
+<img src="me_before_you_WHV_keyart.jpg">
+<figcaption>ME BEFORE YOU</figcaption>
+</figure>
+</div>
+
+<h1> BROWSE THROUGH </h1>
+
+<div class= "image-container">
+
+<figure>
+<img src="rick_and_morty_s2_2000x3000.jpg">
+<figcaption>RICK AND MORTY<figcaption>
+</figure>
+
+<figure>
+<img src="kung_fu_s3_keyart.jpeg">
+<figcaption>KUNG FU</figcaption>
+</figure>
+
+<figure>
+<img src ="they_shall_not_grow_old_key_art.jpg">
+<figcaption>THEY SHALL NOT GROW OLD</figcaption>
+</figure>
+
+<figure>
+<img src="joker_key_art.jpg">
+<figcaption>JOKER</figcaption>
+</figure>
+</div>
+
+<footer>
+  <div class="footer-content">
+    <div class="footer-logo">
+      <img src="LOGO4.jpg">
+    </div>
+	
+    <div class="footer-links">
+      <ul>
+        <li><a href="warner bros website.html">Home</a>
+        <li><a href="Movie page.html">Movies</a>
+        <li><a href="TV SHOWS.html">Tv shows</a>
+        <li><a href="#">About</a>
+        <li><a href="#">Contact</a>
+      </ul>
+    </div>
+	
+  <div class="footer-bottom">
+    <p>&copy; 2023 WARNER BROS. All rights reserved.</p>
+  </div>
+</footer>
